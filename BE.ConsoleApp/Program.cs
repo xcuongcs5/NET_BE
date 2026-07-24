@@ -16,6 +16,8 @@ namespace BE.ConsoleApp
 
             var name3 = 2002;
 
+            int num = 10
+
             Console.WriteLine("Hello, {0}", name);
         }
     }
