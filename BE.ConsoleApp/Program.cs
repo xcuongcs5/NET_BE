@@ -10,6 +10,7 @@ namespace BE.ConsoleApp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello, NET 2026");
         }
     }
 }
