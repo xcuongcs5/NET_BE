@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{231F014F-5941-49B0-BD35-E198D3770A01}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>BE.ConsoleApp</RootNamespace>
-    <AssemblyName>BE.ConsoleApp</AssemblyName>
+    <ProjectGuid>{927BE888-AA34-4E1A-A920-D59664429ECB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NET_BE.Common</RootNamespace>
+    <AssemblyName>NET_BE.Common</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,21 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="DataTooLong.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\BE.DataAccess\BE.DataAccess.csproj">
-      <Project>{fbf4dee9-e01a-44c9-ad54-b8a39d9afd04}</Project>
-      <Name>BE.DataAccess</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\NET_BE.Common\NET_BE.Common.csproj">
-      <Project>{927be888-aa34-4e1a-a920-d59664429ecb}</Project>
-      <Name>NET_BE.Common</Name>
-    </ProjectReference>
+    <Compile Include="ValidateData.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

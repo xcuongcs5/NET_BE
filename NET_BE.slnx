@@ -1,3 +1,8 @@
 <Solution>
-  <Project Path="BE.ConsoleApp/BE.ConsoleApp.csproj" />
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+  </Folder>
+  <Project Path="BE.ConsoleApp/BE.ConsoleApp.csproj" Id="231f014f-5941-49b0-bd35-e198d3770a01" />
+  <Project Path="BE.DataAccess/BE.DataAccess.csproj" Id="fbf4dee9-e01a-44c9-ad54-b8a39d9afd04" />
+  <Project Path="NET_BE.Common/NET_BE.Common.csproj" Id="927be888-aa34-4e1a-a920-d59664429ecb" />
 </Solution>

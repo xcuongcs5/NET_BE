@@ -5,3 +5,8 @@ C:\Users\xcuon\OneDrive\Documents\Workspace\C#\NET_BE\BE.ConsoleApp\bin\Debug\BE
 C:\Users\xcuon\OneDrive\Documents\Workspace\C#\NET_BE\BE.ConsoleApp\bin\Debug\BE.ConsoleApp.pdb
 C:\Users\xcuon\OneDrive\Documents\Workspace\C#\NET_BE\BE.ConsoleApp\obj\Debug\BE.ConsoleApp.exe
 C:\Users\xcuon\OneDrive\Documents\Workspace\C#\NET_BE\BE.ConsoleApp\obj\Debug\BE.ConsoleApp.pdb
+C:\Users\xcuon\OneDrive\Documents\Workspace\C#\NET_BE\BE.ConsoleApp\bin\Debug\NET_BE.Common.dll
+C:\Users\xcuon\OneDrive\Documents\Workspace\C#\NET_BE\BE.ConsoleApp\bin\Debug\NET_BE.Common.pdb
+C:\Users\xcuon\OneDrive\Documents\Workspace\C#\NET_BE\BE.ConsoleApp\obj\Debug\BE.Conso.4A901CF5.Up2Date
+C:\Users\xcuon\OneDrive\Documents\Workspace\C#\NET_BE\BE.ConsoleApp\bin\Debug\BE.DataAccess.dll
+C:\Users\xcuon\OneDrive\Documents\Workspace\C#\NET_BE\BE.ConsoleApp\bin\Debug\BE.DataAccess.pdb
